@@ -372,6 +372,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAgent: {fileID: 1901803274}
+  hasInteracted: 0
 --- !u!23 &383144558
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1254,6 +1255,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAgent: {fileID: 1901803274}
+  hasInteracted: 0
 --- !u!23 &1384835785
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1628,10 +1630,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAgent: {fileID: 1901803274}
+  hasInteracted: 0
   dialogue:
   - 'Whats up? '
   - Wanna help?
   - 'Okay heres the deal:'
+  NPC_name: Jeff
 --- !u!23 &1569449796
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1873,9 +1877,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d894914c51e14d9bbfc35df8aaf307c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueLines:
-  - 
+  dialogueLines: []
   dialoguePanel: {fileID: 1458088961}
+  npcName: 
 --- !u!4 &1794389650
 Transform:
   m_ObjectHideFlags: 0
@@ -1999,7 +2003,7 @@ NavMeshAgent:
   m_Acceleration: 20
   avoidancePriority: 50
   m_AngularSpeed: 500
-  m_StoppingDistance: 0
+  m_StoppingDistance: 0.5
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
@@ -2328,6 +2332,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAgent: {fileID: 1901803274}
+  hasInteracted: 0
 --- !u!23 &2109896050
 MeshRenderer:
   m_ObjectHideFlags: 0

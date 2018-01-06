@@ -10,13 +10,5 @@ public class ActionItem : Interactable {
 		Debug.Log ("interacting with action item!");
 	}
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+
 }

@@ -6,23 +6,16 @@ public class NPC : Interactable {
 
 
 	public string[] dialogue;
+	public string NPC_name;
 
 
 	public override void Interact(){
 
 
-		DialogueSystem.Instance.AddDialogue (dialogue);
+		DialogueSystem.Instance.AddDialogue (dialogue, NPC_name);
 		Debug.Log ("interacting with npc!");
 
 	}
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+
 }

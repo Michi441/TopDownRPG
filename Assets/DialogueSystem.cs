@@ -13,6 +13,8 @@ public class DialogueSystem : MonoBehaviour {
 
 	public GameObject dialoguePanel;
 
+	public string npcName;
+
 
 	Button continueButton;
 	Text dialogueText;
@@ -58,7 +60,7 @@ public class DialogueSystem : MonoBehaviour {
 		}
 	}
 
-	public void AddDialogue(string[] lines){
+	public void AddDialogue(string[] lines, string npcName){
 
 		dialogueIndex = 0;
 		dialogueLines = new List<string> ();
@@ -69,6 +71,10 @@ public class DialogueSystem : MonoBehaviour {
 
 			Debug.Log (dialogueLines.Count);
 		}
+
+		this.npcName = npcName;
+
+		print (npcName);
 
 
 
@@ -86,7 +92,5 @@ public class DialogueSystem : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		
-	}
+
 }

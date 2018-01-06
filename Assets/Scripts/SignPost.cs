@@ -13,13 +13,5 @@ public class SignPost : ActionItem {
 
 		Debug.Log ("interacting with sign post!");
 	}
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+
 }
