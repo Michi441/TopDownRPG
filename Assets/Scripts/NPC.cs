@@ -5,10 +5,15 @@ using UnityEngine;
 public class NPC : Interactable {
 
 
+	public string[] dialogue;
+
+
 	public override void Interact(){
 
 
+		DialogueSystem.Instance.AddDialogue (dialogue);
 		Debug.Log ("interacting with npc!");
+
 	}
 
 	// Use this for initialization
