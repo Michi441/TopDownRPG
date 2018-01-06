@@ -19,6 +19,7 @@ public class DialogueSystem : MonoBehaviour {
 	Button continueButton;
 	Text dialogueText;
 	int dialogueIndex;
+	Text charName;
 
 
 
@@ -28,6 +29,8 @@ public class DialogueSystem : MonoBehaviour {
 
 		continueButton = dialoguePanel.transform.Find ("Button").GetComponent<Button> ();
 		dialogueText = dialoguePanel.transform.Find ("Text").GetComponent<Text> ();
+		charName = dialoguePanel.transform.Find ("Name").GetComponent<Text> ();
+
 
 
 		continueButton.onClick.AddListener (delegate {
@@ -73,6 +76,8 @@ public class DialogueSystem : MonoBehaviour {
 		}
 
 		this.npcName = npcName;
+
+		charName.text = npcName;
 
 		print (npcName);
 
