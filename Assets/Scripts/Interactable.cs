@@ -39,7 +39,7 @@ public class Interactable : MonoBehaviour {
 		if (!hasInteracted && playerAgent != null && !playerAgent.pathPending) {
 
 
-			if (playerAgent.remainingDistance <= playerAgent.stoppingDistance) {
+			if (playerAgent.remainingDistance <= playerAgent.stoppingDistance && !playerAgent.pathPending) {
 
 
 				hasInteracted = true;

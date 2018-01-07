@@ -104,6 +104,7 @@
      <Compile Include="Assets\Scripts\NPC.cs" />
      <Compile Include="Assets\Scripts\SignPost.cs" />
      <Compile Include="Assets\Scripts\StatsBonus.cs" />
+     <Compile Include="Assets\Scripts\Sword.cs" />
      <Compile Include="Assets\Scripts\WorldInteraction.cs" />
      <Compile Include="Assets\TornadoBanditsStudio\Low Poly Free Pack\Scripts\TBS_CameraMovement.cs" />
      <Compile Include="Assets\TornadoBanditsStudio\Low Poly Free Pack\Water\TBS_Water.cs" />
