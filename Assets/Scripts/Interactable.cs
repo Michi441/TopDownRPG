@@ -44,6 +44,8 @@ public class Interactable : MonoBehaviour {
 
 				hasInteracted = true;
 				Interact ();
+
+
 			}
 
 		}

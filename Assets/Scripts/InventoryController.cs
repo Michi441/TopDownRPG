@@ -14,7 +14,7 @@ public class InventoryController : MonoBehaviour {
 		playerWeaponController = GetComponent<PlayerWeaponController> ();
 		List<BaseStats> swordStats = new List<BaseStats> ();
 		swordStats.Add (new BaseStats (6, "Power", "Your Power Level", 90));
-		sword = new Item(swordStats, "sword");
+		sword = new Item(swordStats, "staff");
 	}
 	
 	// Update is called once per frame

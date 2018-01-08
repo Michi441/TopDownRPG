@@ -5,6 +5,8 @@ using UnityEngine;
 public class PlayerWeaponController : MonoBehaviour {
 
 
+	Transform spawnProjectile;
+
 	// get the gameobject for reference
 	public GameObject playerHand;
 
@@ -19,6 +21,9 @@ public class PlayerWeaponController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+
+
+		spawnProjectile = transform.Find ("ProjectileSpawn");
 
 		// declare character stats 
 		characterStats = GetComponent<CharacterStats> ();
@@ -40,6 +45,10 @@ public class PlayerWeaponController : MonoBehaviour {
 		EqWeapon = (GameObject)Instantiate (Resources.Load<GameObject> ("Weapon/" + itemToEquip.ObjectSlug),
 			playerHand.transform.position, playerHand.transform.rotation);
 		equippedWeapon = EqWeapon.GetComponent<IWeapon> ();
+		if (EqWeapon.GetComponent<IProjectileWeapon> () != null) {
+			EqWeapon.GetComponent<IProjectileWeapon> ().ProjectileSpawn = spawnProjectile;
+
+		}
 		equippedWeapon.Stats = itemToEquip.Stats;
 		EqWeapon.transform.SetParent (playerHand.transform);
 		characterStats.AddStatBonus (itemToEquip.Stats);
@@ -54,7 +63,8 @@ public class PlayerWeaponController : MonoBehaviour {
 		equippedWeapon.PerfomAttackz ();
 
 	}
-	
+
+
 	// Update is called once per frame
 	void Update () {
 
