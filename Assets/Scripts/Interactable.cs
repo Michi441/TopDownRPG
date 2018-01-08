@@ -12,7 +12,7 @@ public class Interactable : MonoBehaviour {
 
 		hasInteracted = false;
 		this.playerAgent = playerAgent;
-		playerAgent.stoppingDistance = 2f;
+		playerAgent.stoppingDistance = 3.5f;
 		playerAgent.destination = this.transform.position;
 
 

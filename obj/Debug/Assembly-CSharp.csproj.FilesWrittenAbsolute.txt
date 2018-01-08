@@ -1,3 +1,7 @@
+/Users/DorisMac/TopDownRPG/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/DorisMac/TopDownRPG/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/DorisMac/TopDownRPG/obj/Debug/Assembly-CSharp.dll
+/Users/DorisMac/TopDownRPG/obj/Debug/Assembly-CSharp.dll.mdb
 /Users/DorisMac/TopDownRPG/Temp/bin/Debug/UnityEngine.dll
 /Users/DorisMac/TopDownRPG/Temp/bin/Debug/UnityEditor.dll
 /Users/DorisMac/TopDownRPG/Temp/bin/Debug/UnityEngine.UI.dll
@@ -21,7 +25,3 @@
 /Users/DorisMac/TopDownRPG/Temp/bin/Debug/Unity.CecilTools.dll
 /Users/DorisMac/TopDownRPG/Temp/bin/Debug/Unity.Cecil.Pdb.dll
 /Users/DorisMac/TopDownRPG/Temp/bin/Debug/Unity.Cecil.Mdb.dll
-/Users/DorisMac/TopDownRPG/Temp/bin/Debug/Assembly-CSharp.dll.mdb
-/Users/DorisMac/TopDownRPG/Temp/bin/Debug/Assembly-CSharp.dll
-/Users/DorisMac/TopDownRPG/obj/Debug/Assembly-CSharp.dll
-/Users/DorisMac/TopDownRPG/obj/Debug/Assembly-CSharp.dll.mdb
