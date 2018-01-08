@@ -101,7 +101,11 @@
      <Compile Include="Assets\Scripts\BaseStats.cs" />
      <Compile Include="Assets\Scripts\CharacterStats.cs" />
      <Compile Include="Assets\Scripts\Interactable.cs" />
+     <Compile Include="Assets\Scripts\InventoryController.cs" />
+     <Compile Include="Assets\Scripts\Item.cs" />
+     <Compile Include="Assets\Scripts\IWeapon.cs" />
      <Compile Include="Assets\Scripts\NPC.cs" />
+     <Compile Include="Assets\Scripts\PlayerWeaponController.cs" />
      <Compile Include="Assets\Scripts\SignPost.cs" />
      <Compile Include="Assets\Scripts\StatsBonus.cs" />
      <Compile Include="Assets\Scripts\Sword.cs" />

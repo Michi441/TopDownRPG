@@ -2,15 +2,25 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Sword : MonoBehaviour {
+public class Sword : MonoBehaviour, IWeapon {
 
-	// Use this for initialization
-	void Start () {
-		
+
+	//Perfom SwordAttack
+	public void PerfomAttackz ()
+	{
+
+		Debug.Log ("Sword Attack!");
+
+
+
+
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+
+	// Get the public list of basestats.
+	public List<BaseStats> Stats { get; set; }
+
+
+
+
+
 }
