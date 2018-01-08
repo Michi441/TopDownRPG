@@ -9,6 +9,8 @@ public class InventoryController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
+
+
 		playerWeaponController = GetComponent<PlayerWeaponController> ();
 		List<BaseStats> swordStats = new List<BaseStats> ();
 		swordStats.Add (new BaseStats (6, "Power", "Your Power Level", 90));
